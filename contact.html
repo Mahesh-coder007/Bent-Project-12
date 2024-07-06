@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.min.css" />
+    <link rel="stylesheet" href="./style.media.css" />
+  </head>
+  <body>
+    <div class="menu-container">
+      <div class="menu">
+        <button class="cart capsule">0</button>
+        <button class="open-menu capsule" onclick="openMenu();">
+          <img
+            class="xl-screen-hide"
+            src="./assets/svgs/Hum-Burger.svg"
+            alt=""
+          />
+          <div class="height mobile-hide">
+            <span class="normal-text">Menu</span>
+            <span class="hover-text">Menu</span>
+          </div>
+          <span class="none"
+            ><img src="./assets/svgs/Hum-Burger.svg" alt=""
+          /></span>
+        </button>
+      </div>
+      <nav>
+        <button class="close-menu capsule-w none" onclick="closeMenu();">
+          <img src="./assets/svgs/X.svg" alt="" />
+        </button>
+        <div class="menu-item-container">
+          <div class="menu-item">
+            <a href="./index.html">
+              <div>
+                <img src="./assets/svgs/Arrow-down-w.svg" alt="" />
+                <h1 class="menu-nav-item-text">
+                  <div class="height">
+                    <span class="normal-text">Home</span>
+                    <span class="hover-text">Home</span>
+                  </div>
+                </h1>
+              </div>
+            </a>
+          </div>
+          <div class="menu-item">
+            <a href="./work.html">
+              <div>
+                <img src="./assets/svgs/Arrow-down-w.svg" alt="" />
+                <h1 class="menu-nav-item-text">
+                  <div class="height">
+                    <span class="normal-text">Work</span>
+                    <span class="hover-text">Work</span>
+                  </div>
+                </h1>
+              </div>
+            </a>
+          </div>
+          <div class="menu-item">
+            <a href="./blog.html">
+              <div>
+                <img src="./assets/svgs/Arrow-down-w.svg" alt="" />
+                <h1 class="menu-nav-item-text">
+                  <div class="height">
+                    <span class="normal-text">blog</span>
+                    <span class="hover-text">blog</span>
+                  </div>
+                </h1>
+              </div>
+            </a>
+          </div>
+          <div class="menu-item">
+            <a href="./about.html">
+              <div>
+                <img src="./assets/svgs/Arrow-down-w.svg" alt="" />
+                <h1 class="menu-nav-item-text">
+                  <div class="height">
+                    <span class="normal-text">About</span>
+                    <span class="hover-text">About</span>
+                  </div>
+                </h1>
+              </div>
+            </a>
+          </div>
+          <div class="menu-item">
+            <a href="./contact.html">
+              <div>
+                <img src="./assets/svgs/Arrow-down-w.svg" alt="" />
+                <h1 class="menu-nav-item-text">
+                  <div class="height">
+                    <span class="normal-text">Contact</span>
+                    <span class="hover-text">Contact</span>
+                  </div>
+                </h1>
+              </div>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="loader">
+      <div class="loader-block"></div>
+      <div class="loader-block"></div>
+      <div class="loader-block"></div>
+      <div class="loader-block"></div>
+    </div>
+    <div class="main-wrapper">
+      <div class="about-container">
+        <div class="about-img">
+        <div class="overly"></div>
+          <img class="sticky" src="./assets/images/about.webp" alt="" />
+        </div>
+        <div class="padding-global">
+          <h3 class="margin-xsmall margin-bottom">(Contact)</h3>
+          <h1 class="heading-style-large margin-xlarge margin-bottom">
+            Let’s get <br />
+            in touch
+          </h1>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input
+              type="hidden"
+              name="access_key"
+              value="d111f9b9-1cb4-47d8-972f-1a6ec3b7f6db"
+            />
+            <input
+              class="form-input"
+              name="Name"
+              type="text"
+              placeholder="Your Name"
+              maxlength="256"
+              required
+            />
+            <input
+              class="form-input"
+              name="email"
+              type="email"
+              placeholder="Your Email"
+              maxlength="256"
+              required
+            />
+            <textarea
+              class="form-input textarea"
+              name="Message"
+              id="Message"
+              maxlength="5000"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button class="submit margin-top margin-xsmall">Send Message</button>
+          </form>
+        </div>
+      </div>
+      <footer class="padding-global padding-inline">
+        <section class="connect padding-global padding-block padding-xhuge">
+          <h3 class="margin-small margin-bottom">(Connect)</h3>
+          <h1 class="heading-style-xlarge margin-large margin-bottom">
+            Let's talk
+          </h1>
+          <button class="capsule-w">
+            <a href="./contact.html">
+              <div class="height">
+                <span class="normal-text">Get in Touch</span>
+                <span class="hover-text">Get in Touch</span>
+              </div>
+            </a>
+          </button>
+        </section>
+        <div class="footer-grid-columns padding-global padding-bottom">
+          <div class="links-container">
+            <h3 class="text-meta color-lite-inverse margin-small margin-bottom">
+              (Pages)
+            </h3>
+            <h5><a href="./index.html">Home</a></h5>
+            <h5><a href="./about.html">About</a></h5>
+            <h5><a href="./contact.html">Contact</a></h5>
+          </div>
+          <div class="links-container">
+            <h3 class="text-meta color-lite-inverse margin-small margin-bottom">
+              (CMS)
+            </h3>
+            <h5><a href="./work.html">Work</a></h5>
+            <h5><a href="./blog.html">Blog</a></h5>
+            <h5><a href="">Shop</a></h5>
+          </div>
+          <div class="links-container">
+            <h3 class="text-meta color-lite-inverse margin-small margin-bottom">
+              (Utility Pages)
+            </h3>
+            <h5><a href="">404 Error</a></h5>
+            <h5><a href="">Styleguide</a></h5>
+            <h5><a href="">Licensing</a></h5>
+            <h5><a href="">Changelog</a></h5>
+          </div>
+        </div>
+        <section class="sub-footer">
+          <div class="text-meta">
+            © Made by <span>Mahesh Dongare</span> - Powered by
+            <span>Github</span>
+          </div>
+        </section>
+      </footer>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
